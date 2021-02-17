@@ -18,9 +18,22 @@ network={
 }
 ```
 
+**Verzeichnis `C:\USERS\<user>\Dokumente\RaspberryPi\<files for SD card>`**
+
 ## first login username/password
 First login username `pi` and password `raspberry`.
 
-**Verzeichnis `C:\USERS\<user>\Dokumente\RaspberryPi\<files for SD card>`**
+## first steps after login
+### ssh/key
+```bash
+```
+
+## openhab install
+
+In `/etc/passwd` change `pi` to `openhab` and `/home/pi` to `/home/openhab`.
+
+In `/etc/group` change `pi` to `openhab`.
+
+In `/home` rename `pi` to `openhab`
 
 EOF
