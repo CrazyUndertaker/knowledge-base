@@ -28,7 +28,7 @@ First login username `pi` and password `raspberry`.
 ```bash
 ```
 
-## openhab install
+### rename pi user
 
 In `/etc/passwd` change `pi` to `newuser` and `/home/pi` to `/home/newuser`.
 
