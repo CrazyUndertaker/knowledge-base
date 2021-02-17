@@ -1,5 +1,19 @@
 # RaspberryPI
 
 ## Enable SSH when creating SD card
-Just create a simple empty file named __ssh__ on the Windows-accessible part of the SD card after writing Raspbian to it.
+Just create a simple empty file named `ssh` on the Windows-accessible part of the SD card after writing Raspbian to it.
 
+## Wifi/WLAN when creating SD card
+Just create a simple file named `wpa_supplicant.conf` on the Windows-accessible part of the SD card after writing Raspbian to it.
+
+`
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=DE
+
+network={
+    ssid="<SSID>"
+    psk="<KEY>"
+    key_mgmt=WPA-PSK
+}
+`  
