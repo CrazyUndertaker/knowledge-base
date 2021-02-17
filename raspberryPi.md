@@ -30,12 +30,12 @@ First login username `pi` and password `raspberry`.
 
 ## openhab install
 
-In `/etc/passwd` change `pi` to `openhab` and `/home/pi` to `/home/openhab`.
+In `/etc/passwd` change `pi` to `newuser` and `/home/pi` to `/home/newuser`.
 
-In `/etc/shadow` change `pi` to `openhab`.
+In `/etc/shadow` change `pi` to `newuser`.
 
-In `/etc/group` change `pi` to `openhab` (all entries ^pi: and :pi for the sudoers).
+In `/etc/group` change `pi` to `newuser` (all entries ^pi: and :pi for the sudoers).
 
-In `/home` rename `pi` to `openhab`
+In `/home` rename `pi` to `newuser`
 
 EOF
