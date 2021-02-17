@@ -17,5 +17,10 @@ network={
     key_mgmt=WPA-PSK
 }
 ```
+
+## first login username/password
+First login username `pi` and password `raspberry`.
+
 **Verzeichnis `C:\USERS\<user>\Dokumente\RaspberryPi\<files for SD card>`**
+
 EOF
