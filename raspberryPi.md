@@ -17,5 +17,5 @@ network={
     key_mgmt=WPA-PSK
 }
 ```
-
+**Verzeichnis `C:\USERS\<user>\Dokumente\RaspberryPi\<files for SD card>`**
 EOF
