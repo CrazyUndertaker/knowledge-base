@@ -53,6 +53,12 @@ Install *docker*
 
 ### openhab docker
 
+xxxx
+
+    docker pull openhab/openhab
+
+xxxx
+
 ### raspberryMatic docker
 
 **EOF**
