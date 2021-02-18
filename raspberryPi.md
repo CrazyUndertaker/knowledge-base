@@ -43,7 +43,7 @@ In `/home` rename `pi` to `newuser`
 change in `/etc/hostname` and `/etc/hosts`
 
 ## raspberry-pi docker
-Install **Raspberry Pi OS Lite** on a SD Card. Add the files for *sshd* started and *Wifi/WLAN* started after 1st boot.
+Install **Raspberry Pi OS Lite** on a SD Card. Add the files for *sshd* and *Wifi/WLAN* started after 1st boot.
 Replace the *pi* user by <new-user>, change password. Configure *ssh key* and *sudo no password*
 
 Install *docker* 
