@@ -28,7 +28,7 @@ First login username `pi` and password `raspberry`.
 ```bash
 ```
 
-### rename pi user
+### rename pi change username
 
 In `/etc/passwd` change `pi` to `newuser` and `/home/pi` to `/home/newuser`.
 
@@ -37,5 +37,9 @@ In `/etc/shadow` change `pi` to `newuser`.
 In `/etc/group` change `pi` to `newuser` (all entries ^pi: and :pi for the sudoers).
 
 In `/home` rename `pi` to `newuser`
+
+### rename hostname
+
+change in `/etc/hostname` and `/etc/hosts`
 
 EOF
